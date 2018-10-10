@@ -1,8 +1,13 @@
 # Chrome Extension TypeScript Starter
 
-[![Build Status](https://travis-ci.org/chibat/chrome-extension-typescript-starter.svg?branch=master)](https://travis-ci.org/chibat/chrome-extension-typescript-starter)
-
 Chrome Extension, TypeScript and Visual Studio Code
+
+## What's different in this fork from the original
+
+- All source files including manifest, html, icons are in `Src` folder, they are copied to dist folder during build
+- Support for ES* javascript (not only typescript) via `babel`
+- ts-loader replaced with `@Babel/typescript`
+- dist folder is flat now (no `dist/js` folder anymore), js-files are minified
 
 ## Prerequisites
 
