@@ -1,5 +1,5 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "my-chrome-extension",
   "version": "1.0.0",
   "description": "chrome-extension-typescript-starter",
   "main": "index.js",
@@ -11,19 +11,39 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
+    "url": "https://github.com/pmunin/chrome-extension-typescript-starter.git"
   },
   "dependencies": {
     "jquery": "~3.3.1",
     "moment": "~2.22.2"
   },
   "devDependencies": {
-    "@types/chrome": "~0.0.72",
-    "@types/jquery": "~3.3.1",
-    "ts-loader": "~5.0.0",
-    "typescript": "~3.0.3",
-    "webpack": "~4.17.2",
-    "webpack-cli": "~3.1.0",
-    "webpack-merge": "~4.1.4"
+    "@types/chrome": "^0.0.74",
+    "@types/jquery": "^3.3.14",
+    "typescript": "^3.1.2",
+    
+    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "babel-loader": "^8.0.4",
+
+    "file-loader": "^2.0.0",
+    "style-loader": "^0.23.0",
+    "css-loader":"^1.0.0",
+
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4",
+
+    "html-webpack-plugin": "^3.2.0",
+    "clean-webpack-plugin":"^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+
+    "@types/react":"^16.4.14",
+    "@types/react-dom":"^16.0.8"
   }
 }

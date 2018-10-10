@@ -20,6 +20,8 @@ $(function() {
   });
 
   $('#changeBackground').click(()=>{
+    console.log('zzzzz');
+    alert("Changing background!");
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       chrome.tabs.sendMessage(tabs[0].id, {
         color: '#555555'
